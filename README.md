@@ -1,2 +1,2 @@
 # tenalog
-my personal blog
+TENALOG
