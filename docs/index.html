@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TENALOG</title>
-</head>
-<body>
-  <h1>개발자 Tena의 기술 블로그</h1>
 
-  <h2>홈 화면 입니다.</h2>
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- index.css -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header class="top-bar inline-grid">
+    <!-- 로고 영역 -->
+    <div>
+      <!-- 로고 -->
+      <a href="#" class="top-bar__logo block">
+        <span><i class="fas fa-leaf"></i></span>
+        <span>TENALOG</span>
+      </a>
+    </div>
+
+    <!-- 빈 공간 -->
+    <div></div>
+
+    <!-- 메뉴 영역 -->
+    <div class="inline-grid text-right">
+
+      <!-- 메뉴 -->
+      <nav class="top-bar__menu-box-1">
+        <ul class="inline-grid">
+          <li>
+            <a href="#">
+              <span><i class="fas fa-home"></i></span>
+              <span>HOME</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fas fa-user-alt"></i></span>
+              <span>ABOUT ME</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fas fa-newspaper"></i></span>
+              <span>ARTICLE</span>
+            </a>
+            <ul>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-code"></i></span>
+                  <span>WEB CODING</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-tablet-alt"></i></span>
+                  <span>UI/UX</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fab fa-dev"></i></span>
+              <span>PORTFOLIO</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section-1">
+    안녕하세요. 저는 홍길동입니다.
+  </section>
 </body>
+
 </html>
