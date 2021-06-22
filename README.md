@@ -1,4 +1,4 @@
 # TENALOG
 > Developer Tena's Tech Blog
 > 
-> <https://tenalog.ml/>{: target="_blank"}
+> <a href="https://tenalog.ml/" target="_blank">https://tenalog.ml/</a>
