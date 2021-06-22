@@ -92,9 +92,10 @@ a {
 
 /* 커스텀 */
 .con {
-  width: 1000px;
+  width: 1280px;
 }
 
+/* 상단바 - 시작 */
 .top-bar,
 .top-bar>.con {
   background-color: #232323;
@@ -163,3 +164,18 @@ a {
 .top-bar__menu-box-1>ul>li:hover>ul {
   display: block;
 }
+
+/* 상단바 - 끝 */
+
+/* work-list-box - 시작 */
+.work-list-box>ul>li {
+  /* border: 10px solid red; */
+  width: 25%;
+}
+
+.work-list-box>ul>li>img {
+  width: 100%;
+  display: block;
+}
+
+/* work-list-box - 끝 */
