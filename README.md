@@ -1,4 +1,4 @@
 # TENALOG
-
-# 관련 링크
-- [블로그 주소, https://begintofly.github.io/tenalog](https://begintofly.github.io/tenalog/)
+> Developer Tena's Tech Blog
+> 
+> [https://tenalog.ml/](https://tenalog.ml/)

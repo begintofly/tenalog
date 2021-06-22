@@ -80,22 +80,36 @@ a {
   display: block;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* 커스텀 */
-.top-bar {
+.con {
+  width: 1000px;
+}
+
+.top-bar,
+.top-bar>.con {
   background-color: #232323;
   color: white;
 }
 
-.top-bar>div:first-child {
+.top-bar>.con>div:first-child {
   width: 240px;
 }
 
-.top-bar>div:nth-child(2) {
+.top-bar>.con>div:nth-child(2) {
   width: calc(100% - 240px - 650px);
 }
 
-.top-bar>div:last-child {
+.top-bar>.con>div:last-child {
   width: 650px;
 }
 
