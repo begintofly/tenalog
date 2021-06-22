@@ -90,6 +90,12 @@ a {
   margin-right: auto;
 }
 
+/* img-box : 박스 내 img 컨텐츠를 반응형이 되도록 처리 */
+.img-box>img {
+  width: 100%;
+  display: block; /* inline 요소라 발생하는 박스 내 미세한 공백 제거 */
+}
+
 /* 커스텀 */
 .con {
   width: 1280px;
@@ -169,13 +175,6 @@ a {
 
 /* work-list-box - 시작 */
 .work-list-box>ul>li {
-  /* border: 10px solid red; */
   width: 25%;
 }
-
-.work-list-box>ul>li>img {
-  width: 100%;
-  display: block;
-}
-
 /* work-list-box - 끝 */
