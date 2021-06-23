@@ -93,7 +93,8 @@ a {
 /* img-box : 박스 내 img 컨텐츠를 반응형이 되도록 처리 */
 .img-box>img {
   width: 100%;
-  display: block; /* inline 요소라 발생하는 박스 내 미세한 공백 제거 */
+  /* block 처리해 img 가 inline 요소라 발생하는 박스 내 미세한 공백 제거 */
+  display: block;
 }
 
 /* 커스텀 */
@@ -173,8 +174,28 @@ a {
 
 /* 상단바 - 끝 */
 
-/* work-list-box - 시작 */
-.work-list-box>ul>li {
-  width: 25%;
+/* section-0 */
+.section-0 {
+  margin-top: 20px;
 }
+
+/* work-list-box - 시작 */
+
+.work-list-box {
+  /*   background-color:gold; */
+}
+
+.work-list-box>ul {
+  /* 음수 마진: 반대방향으로 부모의 너비 구애없이 여백 */
+  margin-left: -10px;
+  margin-right: -10px;
+  /*   background-color:red; */
+}
+
+.work-list-box>ul>li {
+  margin-top: 20px;
+  width: 20%;
+  padding: 0 10px;
+}
+
 /* work-list-box - 끝 */
